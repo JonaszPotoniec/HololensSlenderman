@@ -6728,84 +6728,121 @@ See Also: EditorBuildSettingsScene, EditorBuildSettings.scenes.</para>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskField(UnityEngine.Rect,System.Enum)">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for this control.</param>
+      <param name="label">Caption/label for the control.</param>
       <param name="enumValue">Enum to use for the flags.</param>
       <param name="style">Optional GUIStyle.</param>
-      <param name="label">Caption/label for the control.</param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskField(UnityEngine.Rect,System.String,System.Enum)">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for this control.</param>
+      <param name="label">Caption/label for the control.</param>
       <param name="enumValue">Enum to use for the flags.</param>
       <param name="style">Optional GUIStyle.</param>
-      <param name="label">Caption/label for the control.</param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskField(UnityEngine.Rect,UnityEngine.GUIContent,System.Enum)">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for this control.</param>
+      <param name="label">Caption/label for the control.</param>
       <param name="enumValue">Enum to use for the flags.</param>
       <param name="style">Optional GUIStyle.</param>
-      <param name="label">Caption/label for the control.</param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskField(UnityEngine.Rect,System.Enum,UnityEngine.GUIStyle)">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for this control.</param>
+      <param name="label">Caption/label for the control.</param>
       <param name="enumValue">Enum to use for the flags.</param>
       <param name="style">Optional GUIStyle.</param>
-      <param name="label">Caption/label for the control.</param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskField(UnityEngine.Rect,System.String,System.Enum,UnityEngine.GUIStyle)">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for this control.</param>
+      <param name="label">Caption/label for the control.</param>
       <param name="enumValue">Enum to use for the flags.</param>
       <param name="style">Optional GUIStyle.</param>
-      <param name="label">Caption/label for the control.</param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskField(UnityEngine.Rect,UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle)">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for this control.</param>
+      <param name="label">Caption/label for the control.</param>
       <param name="enumValue">Enum to use for the flags.</param>
       <param name="style">Optional GUIStyle.</param>
-      <param name="label">Caption/label for the control.</param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
-    <member name="M:UnityEditor.EditorGUI.EnumMaskField">
+    <member name="M:UnityEditor.EditorGUI.EnumMaskPopup(UnityEngine.Rect,System.String,System.Enum)">
       <summary>
-        <para>Internal version that also gives you back which flags were changed and what they were changed to.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
       </summary>
+      <param name="position">Rectangle on the screen to use for the field.</param>
+      <param name="label">Optional label in front of the field.</param>
+      <param name="selected">The enum options the field shows.</param>
+      <param name="style">Optional GUIStyle.</param>
+      <returns>
+        <para>The enum options that has been selected by the user.</para>
+      </returns>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskPopup(UnityEngine.Rect,System.String,System.Enum,UnityEngine.GUIStyle)">
       <summary>
-        <para>Make an enum popup selection field for a bitmask.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
+      </summary>
+      <param name="position">Rectangle on the screen to use for the field.</param>
+      <param name="label">Optional label in front of the field.</param>
+      <param name="selected">The enum options the field shows.</param>
+      <param name="style">Optional GUIStyle.</param>
+      <returns>
+        <para>The enum options that has been selected by the user.</para>
+      </returns>
+    </member>
+    <member name="M:UnityEditor.EditorGUI.EnumMaskPopup(UnityEngine.Rect,UnityEngine.GUIContent,System.Enum)">
+      <summary>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for the field.</param>
       <param name="label">Optional label in front of the field.</param>
@@ -6817,7 +6854,9 @@ See Also: EditorBuildSettingsScene, EditorBuildSettings.scenes.</para>
     </member>
     <member name="M:UnityEditor.EditorGUI.EnumMaskPopup(UnityEngine.Rect,UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle)">
       <summary>
-        <para>Make an enum popup selection field for a bitmask.</para>
+        <para>This method is obsolete. Use EditorGUI.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
       </summary>
       <param name="position">Rectangle on the screen to use for the field.</param>
       <param name="label">Optional label in front of the field.</param>
@@ -9860,132 +9899,152 @@ GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskField(UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="label">Prefix label for this field.</param>
       <param name="enumValue">Enum to use for the flags.</param>
+      <param name="style">Optional GUIStyle.</param>
       <param name="options">An optional list of layout options that specify extra layout properties. Any values passed in here will override settings defined by the style.&lt;br&gt;
 See Also: GUILayout.Width, GUILayout.Height, GUILayout.MinWidth, GUILayout.MaxWidth, GUILayout.MinHeight,
 GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
-      <param name="style"></param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.String,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="label">Prefix label for this field.</param>
       <param name="enumValue">Enum to use for the flags.</param>
+      <param name="style">Optional GUIStyle.</param>
       <param name="options">An optional list of layout options that specify extra layout properties. Any values passed in here will override settings defined by the style.&lt;br&gt;
 See Also: GUILayout.Width, GUILayout.Height, GUILayout.MinWidth, GUILayout.MaxWidth, GUILayout.MinHeight,
 GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
-      <param name="style"></param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskField(UnityEngine.GUIContent,System.Enum,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="label">Prefix label for this field.</param>
       <param name="enumValue">Enum to use for the flags.</param>
+      <param name="style">Optional GUIStyle.</param>
       <param name="options">An optional list of layout options that specify extra layout properties. Any values passed in here will override settings defined by the style.&lt;br&gt;
 See Also: GUILayout.Width, GUILayout.Height, GUILayout.MinWidth, GUILayout.MaxWidth, GUILayout.MinHeight,
 GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
-      <param name="style"></param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.String,System.Enum,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="label">Prefix label for this field.</param>
       <param name="enumValue">Enum to use for the flags.</param>
+      <param name="style">Optional GUIStyle.</param>
       <param name="options">An optional list of layout options that specify extra layout properties. Any values passed in here will override settings defined by the style.&lt;br&gt;
 See Also: GUILayout.Width, GUILayout.Height, GUILayout.MinWidth, GUILayout.MaxWidth, GUILayout.MinHeight,
 GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
-      <param name="style"></param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="label">Prefix label for this field.</param>
       <param name="enumValue">Enum to use for the flags.</param>
+      <param name="style">Optional GUIStyle.</param>
       <param name="options">An optional list of layout options that specify extra layout properties. Any values passed in here will override settings defined by the style.&lt;br&gt;
 See Also: GUILayout.Width, GUILayout.Height, GUILayout.MinWidth, GUILayout.MaxWidth, GUILayout.MinHeight,
 GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
-      <param name="style"></param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskField(System.Enum,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make a field for enum based masks.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make a field for enum based masks.</para>
       </summary>
       <param name="label">Prefix label for this field.</param>
       <param name="enumValue">Enum to use for the flags.</param>
+      <param name="style">Optional GUIStyle.</param>
       <param name="options">An optional list of layout options that specify extra layout properties. Any values passed in here will override settings defined by the style.&lt;br&gt;
 See Also: GUILayout.Width, GUILayout.Height, GUILayout.MinWidth, GUILayout.MaxWidth, GUILayout.MinHeight,
 GUILayout.MaxHeight, GUILayout.ExpandWidth, GUILayout.ExpandHeight.</param>
-      <param name="style"></param>
       <returns>
         <para>The value modified by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskPopup(System.String,System.Enum,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make an enum popup selection field for a bitmask.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
       </summary>
       <param name="label">Optional label in front of the field.</param>
       <param name="selected">The enum options the field shows.</param>
-      <param name="options">Optional layout options.</param>
       <param name="style">Optional GUIStyle.</param>
+      <param name="options">Optional layout options.</param>
       <returns>
         <para>The enum options that has been selected by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskPopup(System.String,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make an enum popup selection field for a bitmask.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
       </summary>
       <param name="label">Optional label in front of the field.</param>
       <param name="selected">The enum options the field shows.</param>
-      <param name="options">Optional layout options.</param>
       <param name="style">Optional GUIStyle.</param>
+      <param name="options">Optional layout options.</param>
       <returns>
         <para>The enum options that has been selected by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskPopup(UnityEngine.GUIContent,System.Enum,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make an enum popup selection field for a bitmask.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
       </summary>
       <param name="label">Optional label in front of the field.</param>
       <param name="selected">The enum options the field shows.</param>
-      <param name="options">Optional layout options.</param>
       <param name="style">Optional GUIStyle.</param>
+      <param name="options">Optional layout options.</param>
       <returns>
         <para>The enum options that has been selected by the user.</para>
       </returns>
     </member>
     <member name="M:UnityEditor.EditorGUILayout.EnumMaskPopup(UnityEngine.GUIContent,System.Enum,UnityEngine.GUIStyle,UnityEngine.GUILayoutOption[])">
       <summary>
-        <para>Make an enum popup selection field for a bitmask.</para>
+        <para>This method is obsolete. Use EditorGUILayout.EnumFlagsField instead.
+
+Make an enum popup selection field for a bitmask.</para>
       </summary>
       <param name="label">Optional label in front of the field.</param>
       <param name="selected">The enum options the field shows.</param>
-      <param name="options">Optional layout options.</param>
       <param name="style">Optional GUIStyle.</param>
+      <param name="options">Optional layout options.</param>
       <returns>
         <para>The enum options that has been selected by the user.</para>
       </returns>
@@ -20949,6 +21008,16 @@ Notes:
         <para>Returns true if the textures are extracted successfully, otherwise false.</para>
       </returns>
     </member>
+    <member name="M:UnityEditor.ModelImporter.SearchAndRemapMaterials(UnityEditor.ModelImporterMaterialName,UnityEditor.ModelImporterMaterialSearch)">
+      <summary>
+        <para>Search the project for matching materials and use them instead of the internal materials.</para>
+      </summary>
+      <param name="nameOption">The name matching option.</param>
+      <param name="searchOption">The search type option.</param>
+      <returns>
+        <para>Returns true if the materials have been successfly remapped, otherwise false.</para>
+      </returns>
+    </member>
     <member name="T:UnityEditor.ModelImporterAnimationCompression">
       <summary>
         <para>Animation compression options for ModelImporter.</para>
@@ -22784,11 +22853,6 @@ See Also: PhysicsVisualizationSettings.</para>
     <member name="P:UnityEditor.PlayerSettings.Android.androidIsGame">
       <summary>
         <para>Publish the build as a game rather than a regular application. This option affects devices running Android 5.0 Lollipop and later</para>
-      </summary>
-    </member>
-    <member name="P:UnityEditor.PlayerSettings.Android.androidTangoUsesCamera">
-      <summary>
-        <para>Allow Google Tango to use the device's camera. Requires camera permissions.</para>
       </summary>
     </member>
     <member name="P:UnityEditor.PlayerSettings.Android.androidTVCompatibility">
