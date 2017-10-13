@@ -37,6 +37,15 @@ public class buttons : MonoBehaviour {
                 transform.GetComponent<MeshRenderer>().sharedMaterial = materials[0];
         }
 
-        settingsOBJ.SendMessageUpwards(functionName, functionArguments);
+        if(functionArguments == "&state")
+        {
+            settingsOBJ.SendMessageUpwards(functionName, state);
+        }
+        else
+        {
+            settingsOBJ.SendMessageUpwards(functionName, functionArguments);    
+        }
+
+        return;
     }
 }

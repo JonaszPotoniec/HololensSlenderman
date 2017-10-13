@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class settings : MonoBehaviour {
 
+    public bool oneRoomMode = false;
+
 	// Use this for initialization
 	void Start () {
         DontDestroyOnLoad(transform.gameObject);
@@ -13,4 +15,10 @@ public class settings : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void oneRoom(bool state)
+    {
+        oneRoomMode = state;
+        return;
+    }
 }

@@ -229,6 +229,7 @@
     <Compile Include="Assets\scripts\buttons.cs" />
     <Compile Include="Assets\scripts\game.cs" />
     <Compile Include="Assets\scripts\GazeGestureManager.cs" />
+    <Compile Include="Assets\scripts\LoadingBar.cs" />
     <Compile Include="Assets\scripts\pages.cs" />
     <Compile Include="Assets\scripts\przesuwanie.cs" />
     <Compile Include="Assets\scripts\settings.cs" />
