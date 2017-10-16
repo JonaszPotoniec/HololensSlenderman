@@ -28,6 +28,9 @@
     </Application>
   </Applications>
   <Capabilities>
+    <uap:Capability Name="musicLibrary" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="videosLibrary" />
     <uap2:Capability Name="spatialPerception" />
   </Capabilities>
 </Package>

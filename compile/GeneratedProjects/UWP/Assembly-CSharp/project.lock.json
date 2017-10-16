@@ -15774,19 +15774,19 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\Jonasz\\.nuget\\packages\\": {}
+    "C:\\Users\\praktykant2\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
-      "packagesPath": "C:\\Users\\Jonasz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\x86\\Release\\",
+      "projectPath": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "packagesPath": "C:\\Users\\praktykant2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\x86\\Release\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\Jonasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\praktykant2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {

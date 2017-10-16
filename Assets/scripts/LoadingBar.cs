@@ -9,6 +9,8 @@ public class LoadingBar : MonoBehaviour {
     public Transform Text;
     public float currentAmount;
     public float speed;
+    private GameObject usedBy;
+
 
     // Use this for initialization
     void Start () {
@@ -28,8 +30,20 @@ public class LoadingBar : MonoBehaviour {
             LoadingBarr.gameObject.SetActive(false);
             Text.gameObject.SetActive(false);
             this.gameObject.SetActive(false);
+            if(usedBy != null)
+                usedBy.SendMessageUpwards("countingDone");
         }
         LoadingBarr.GetComponent<Image>().fillAmount = currentAmount;
 
 	}
+
+    void Play(float newSpeed, GameObject back)
+    {
+        usedBy = back;
+        speed = newSpeed; 
+        LoadingBarr.gameObject.SetActive(true);
+        Text.gameObject.SetActive(true);
+        this.gameObject.SetActive(true);
+        currentAmount = 0;
+    }
 }

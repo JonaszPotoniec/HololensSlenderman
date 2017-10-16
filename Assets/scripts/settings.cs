@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class settings : MonoBehaviour {
 
-    public bool oneRoomMode = false;
+    public bool oneRoomMode = true;
 
 	// Use this for initialization
 	void Start () {
@@ -20,5 +21,10 @@ public class settings : MonoBehaviour {
     {
         oneRoomMode = state;
         return;
+    }
+
+    void startGame()
+    {
+        SceneManager.LoadScene("1");
     }
 }

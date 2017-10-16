@@ -8,9 +8,9 @@
 holo-testy.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 holo-testy\App.cs: 263AF2C015C765C04FE6B7F317CC10EF
-holo-testy\holo-testy.csproj: 53127B2E96A4176C3B16F0AF647F581F
+holo-testy\holo-testy.csproj: 5629AFF54774CEF2045536EEB0DF7985
 holo-testy\holo-testy.csproj.user: modified
-holo-testy\Package.appxmanifest: 5B5D3F5742361F4FBCD651F5738E418C
+holo-testy\Package.appxmanifest: 5958CF0E8FAEF81975234F5775A01E6E
 holo-testy\project.json: 1D02BC64BAC0D041019673A1C4C51737
 holo-testy\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 holo-testy\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
@@ -18,5 +18,12 @@ holo-testy\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775D
 holo-testy\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
 holo-testy\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
 holo-testy\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+holo-testy\bin\x86\Release\AppX\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
+holo-testy\bin\x86\Release\AppX\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
+holo-testy\bin\x86\Release\AppX\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
+holo-testy\bin\x86\Release\AppX\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
+holo-testy\bin\x86\Release\AppX\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
+holo-testy\bin\x86\Release\AppX\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
+holo-testy\bin\x86\Release\AppX\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
 holo-testy\obj\x86\Release\holo-testy.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
 holo-testy\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826

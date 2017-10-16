@@ -15849,19 +15849,19 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\Jonasz\\.nuget\\packages\\": {}
+    "C:\\Users\\praktykant2\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\holo-testy\\holo-testy.csproj",
+      "projectUniqueName": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\holo-testy\\holo-testy.csproj",
       "projectName": "holo-testy",
-      "projectPath": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\holo-testy\\holo-testy.csproj",
-      "projectJsonPath": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\holo-testy\\project.json",
-      "packagesPath": "C:\\Users\\Jonasz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\holo-testy\\obj\\",
+      "projectPath": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\holo-testy\\holo-testy.csproj",
+      "projectJsonPath": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\holo-testy\\project.json",
+      "packagesPath": "C:\\Users\\praktykant2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\holo-testy\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\Jonasz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\praktykant2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
@@ -15871,8 +15871,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\Jonasz\\Documents\\holo-testy\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
+            "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\praktykant2\\Desktop\\HololensSlenderman\\compile\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj"
             }
           }
         }

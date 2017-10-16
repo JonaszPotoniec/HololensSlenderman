@@ -12,6 +12,8 @@ public class game : MonoBehaviour {
     public GameObject rotatePleaseText;
     public float radius = 20.0f;
     public float height = 0;
+    public float f1 = 0, f2 = 0, f3 = 0, f4 = 0;
+    public float rotateStart;
 
     private GameObject settingsObject;
 
@@ -29,26 +31,17 @@ public class game : MonoBehaviour {
         }
         else
         {
-            float rotateStart = transform.rotation.y;
+            rotateStart = transform.rotation.y;
             rotatePleaseText.SetActive(true);
-            /*
-            float f1, f2, f3, f4;
-            bool b1 = false, b2 = false, b3 = false, b4 = false;
-            while (!b1 && !b2 && !b3 && !b4)
-            {
-
-                if(Mathf.Round == 0)
-                    
-
-            }*/
-
+            countingDone();
         }
 
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
+        if (settingsObject.GetComponent<settings>().oneRoomMode == true && (f1 == 0 || f2 == 0 || f3 == 0 || f4 == 0))
+            countingDone();
     }
 
     public void Gaming()
@@ -63,6 +56,51 @@ public class game : MonoBehaviour {
 
         tekst.transform.GetComponent<TextMesh>().text = points + "/10";
         
+    }
+
+    void countingDone()
+    {
+
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit);
+        //Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward), Color.green);
+        Debug.DrawLine(ray.origin, hit.point);
+
+        if (f1 == 0)
+        {
+            f1 = hit.distance;
+        }
+        else if (f2 == 0)
+        {
+            if
+              (
+                (transform.eulerAngles.y > rotateStart + 80 && transform.eulerAngles.y < rotateStart + 100) ||
+                (transform.eulerAngles.y > rotateStart + 260 && transform.eulerAngles.y < rotateStart + 280)
+              )
+                f2 = hit.distance;
+        }
+        else if (f3 == 0)
+        {
+            if (transform.eulerAngles.y > rotateStart + 160 && transform.eulerAngles.y < rotateStart + 200)
+                f3 = hit.distance;
+        }
+        else if (f4 == 0)
+        {
+            if
+              (
+                (transform.eulerAngles.y > rotateStart + 80 && transform.eulerAngles.y < rotateStart + 100) ||
+                (transform.eulerAngles.y > rotateStart + 260 && transform.eulerAngles.y < rotateStart + 280)
+              )
+            {
+                f4 = hit.distance;
+                rotatePleaseText.SetActive(false);
+                for (int z = 0; z < 10; z++)
+                {
+                    Instantiate(prefabPage, new Vector3(Random.Range(0 - f1, 0 + f3), height, Random.Range(0 - f4, 0 + f2)), Quaternion.identity);
+                }
+            }
+        }
     }
 
 }
