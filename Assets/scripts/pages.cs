@@ -25,8 +25,8 @@ public class pages : MonoBehaviour {
             Destroy(this.gameObject);
         }
     }
-
-    private void OnCollisionStay(Collision collision)
+    /* 
+    private void OnCollisionStay(Collision collision)  //I guess it just doesn't make sense 
     {
         if(collision.gameObject.name == "XR")
             transform.position = new Vector3
@@ -36,4 +36,5 @@ public class pages : MonoBehaviour {
                     Random.Range(-gameScript.transform.GetComponent<game>().radius, gameScript.transform.GetComponent<game>().radius)
                 );
     }
+    */
 }

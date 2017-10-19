@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c956781ba23d04bbcc7f395609bb64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameTime: 500
   prefabSlenderman: {fileID: 1414904195623366, guid: 2404d93a1c49a924eb95aa4109807fcb,
     type: 2}
 --- !u!136 &136489980682970792

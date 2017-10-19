@@ -14,6 +14,7 @@ public class game : MonoBehaviour {
     public float height = 0;
     public float f1 = 0, f2 = 0, f3 = 0, f4 = 0;
     public float rotateStart;
+    public Texture bloooood;
 
     private GameObject settingsObject;
 
@@ -97,10 +98,9 @@ public class game : MonoBehaviour {
                 rotatePleaseText.SetActive(false);
                 for (int z = 0; z < 10; z++)
                 {
-                    Instantiate(prefabPage, new Vector3(Random.Range(0 - f1, 0 + f3), height, Random.Range(0 - f4, 0 + f2)), Quaternion.identity);
+                    Instantiate(prefabPage, new Vector3(Random.Range(0 - f3, 0 + f1), height, Random.Range(0 - f4, 0 + f2)), Quaternion.identity);
                 }
             }
         }
     }
-
 }
