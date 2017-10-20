@@ -25,6 +25,6 @@ public class settings : MonoBehaviour {
 
     void startGame()
     {
-        SceneManager.LoadScene("1");
+        SceneManager.LoadScene(1);
     }
 }

@@ -25,7 +25,7 @@ public class buttons : MonoBehaviour {
 
     }
 
-    void onSelect()
+    void OnSelect()
     {
         if (isClickable)
         {

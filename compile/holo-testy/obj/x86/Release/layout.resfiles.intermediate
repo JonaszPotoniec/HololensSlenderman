@@ -10,10 +10,14 @@ Data\globalgamemanagers
 Data\globalgamemanagers.assets
 Data\level0
 Data\level0.resS
+Data\level1
+Data\level1.resS
 Data\managedAssemblies.txt
 Data\Resources\unity default resources
 Data\Resources\unity_builtin_extra
 Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
+Data\sharedassets1.assets
+Data\sharedassets1.assets.resS
 Properties\Default.rd.xml
 Resource.res

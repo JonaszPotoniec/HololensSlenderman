@@ -4359,7 +4359,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 746551353
+  randomSeed: 158158437
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8150,6 +8150,7 @@ GameObject:
   - component: {fileID: 1987041110}
   - component: {fileID: 1987041109}
   - component: {fileID: 1987041112}
+  - component: {fileID: 1987041113}
   m_Layer: 0
   m_Name: startGame
   m_TagString: Untagged
@@ -8237,6 +8238,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 42.2, y: 15.8, z: 4.4}
   m_Center: {x: 14.65, y: -6.89, z: -4.43}
+--- !u!114 &1987041113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1987041108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19368a8fadad43419533550860f5931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isClickable: 1
+  functionName: startGame
+  functionArguments: 
+  materials: []
 --- !u!1 &2054920761
 GameObject:
   m_ObjectHideFlags: 0
@@ -8333,6 +8349,7 @@ GameObject:
   - component: {fileID: 2133892333}
   - component: {fileID: 2133892332}
   - component: {fileID: 2133892331}
+  - component: {fileID: 2133892335}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -8406,3 +8423,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 20, z: 0}
+--- !u!114 &2133892335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2133892330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19368a8fadad43419533550860f5931, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isClickable: 1
+  functionName: startGame
+  functionArguments: 
+  materials: []
