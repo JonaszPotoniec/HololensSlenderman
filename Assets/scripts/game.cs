@@ -70,37 +70,46 @@ public class game : MonoBehaviour {
 
         if (f1 == 0)
         {
-            f1 = hit.distance;
+            if
+              (
+                ((transform.eulerAngles.y > rotateStart + 370 && transform.eulerAngles.y > rotateStart) || (transform.eulerAngles.y < rotateStart + 10 && transform.eulerAngles.y > rotateStart))
+              )
+                f1 = hit.distance;
         }
-        else if (f2 == 0)
+
+        if (f2 == 0)
         {
             if
               (
-                (transform.eulerAngles.y > rotateStart + 80 && transform.eulerAngles.y < rotateStart + 100) ||
-                (transform.eulerAngles.y > rotateStart + 260 && transform.eulerAngles.y < rotateStart + 280)
+                (transform.eulerAngles.y > rotateStart + 80 && transform.eulerAngles.y < rotateStart + 100)
               )
                 f2 = hit.distance;
         }
-        else if (f3 == 0)
+
+        if (f3 == 0)
         {
-            if (transform.eulerAngles.y > rotateStart + 160 && transform.eulerAngles.y < rotateStart + 200)
+            if (transform.eulerAngles.y > rotateStart + 170 && transform.eulerAngles.y < rotateStart + 190)
                 f3 = hit.distance;
         }
-        else if (f4 == 0)
+
+        if (f4 == 0)
         {
-            if
-              (
-                (transform.eulerAngles.y > rotateStart + 80 && transform.eulerAngles.y < rotateStart + 100) ||
+            if(
                 (transform.eulerAngles.y > rotateStart + 260 && transform.eulerAngles.y < rotateStart + 280)
               )
             {
                 f4 = hit.distance;
-                rotatePleaseText.SetActive(false);
-                for (int z = 0; z < 10; z++)
-                {
-                    Instantiate(prefabPage, new Vector3(Random.Range(0 - f3, 0 + f1), height, Random.Range(0 - f4, 0 + f2)), Quaternion.identity);
-                }
             }
         }
+
+        if(f1 != 0 && f2 != 0 && f3 != 0 && f4 != 0)
+        {
+            rotatePleaseText.SetActive(false);
+            for (int z = 0; z < 10; z++)
+            {
+                Instantiate(prefabPage, new Vector3(Random.Range(0 - f3, 0 + f1), height, Random.Range(0 - f4, 0 + f2)), Quaternion.identity);
+            }
+        }
+
     }
 }

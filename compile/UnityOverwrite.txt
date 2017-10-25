@@ -8,7 +8,7 @@
 holo-testy.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 holo-testy\App.cs: 263AF2C015C765C04FE6B7F317CC10EF
-holo-testy\holo-testy.csproj: 498E4A7639C03B626CD09CEA676881DA
+holo-testy\holo-testy.csproj: DD9EE39C173395D3E9618034BFAB3155
 holo-testy\holo-testy.csproj.user: modified
 holo-testy\Package.appxmanifest: 5958CF0E8FAEF81975234F5775A01E6E
 holo-testy\project.json: 1D02BC64BAC0D041019673A1C4C51737

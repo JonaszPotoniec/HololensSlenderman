@@ -8,9 +8,8 @@ public class buttons : MonoBehaviour {
     public string functionName;
     public string functionArguments;
     public Material[] materials;
+    public bool state;
 
-
-    private bool state;
     private GameObject settingsOBJ;
 
 	// Use this for initialization
@@ -18,10 +17,18 @@ public class buttons : MonoBehaviour {
         
         settingsOBJ = GameObject.Find("settings");
 
+        if (isClickable)
+        {
+            if (state)
+                transform.GetComponent<MeshRenderer>().sharedMaterial = materials[1];
+            else
+                transform.GetComponent<MeshRenderer>().sharedMaterial = materials[0];
+        }
+
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update () {
 
     }
 

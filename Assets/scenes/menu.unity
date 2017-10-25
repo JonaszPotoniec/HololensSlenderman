@@ -328,10 +328,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isClickable: 1
   functionName: oneRoom
-  functionArguments: 
+  functionArguments: '&state'
   materials:
   - {fileID: 2100000, guid: 6b4ffc3a797a165449beb3e87a235471, type: 2}
   - {fileID: 2100000, guid: 379fb723123ed5249a50390021edfabb, type: 2}
+  state: 1
 --- !u!1 &421727125
 GameObject:
   m_ObjectHideFlags: 0
@@ -8249,10 +8250,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c19368a8fadad43419533550860f5931, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isClickable: 1
+  isClickable: 0
   functionName: startGame
   functionArguments: 
   materials: []
+  state: 0
 --- !u!1 &2054920761
 GameObject:
   m_ObjectHideFlags: 0
@@ -8438,3 +8440,4 @@ MonoBehaviour:
   functionName: startGame
   functionArguments: 
   materials: []
+  state: 0
