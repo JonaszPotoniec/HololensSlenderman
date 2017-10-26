@@ -66,7 +66,7 @@ public class slender : MonoBehaviour {
         //print(collision.gameObject.name);
         if (collision.gameObject.tag == "MainCamera")
         {
-            //TODO end game
+            GameObject.Find("settings").SendMessageUpwards("goToMenu");
         }
 
         if (collision.gameObject.name == "XR")
@@ -75,9 +75,13 @@ public class slender : MonoBehaviour {
 
     private void Move() //TODO: enhance spawning alghorythm
     {
+        
         float distance = gameTime/10;
         float x = RandomPositionX(distance);
         transform.position = new Vector3(x, 0, RandomPositionY(x, distance));
+
+        //y=(cos(x/155)+1.8)*5
+
     }
 
     private float RandomPositionX(float r)

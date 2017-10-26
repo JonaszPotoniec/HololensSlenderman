@@ -23,6 +23,8 @@ public class game : MonoBehaviour {
 
         settingsObject = GameObject.Find("settings");
 
+        settingsObject.GetComponent<settings>().resetGame();
+
         if (settingsObject.GetComponent<settings>().oneRoomMode == false)
         {
             for (int z = 0; z < 10; z++)
@@ -49,7 +51,7 @@ public class game : MonoBehaviour {
     {
 
         points++;
-        if(points == 10)
+        if(points >= 10)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         else
             if(points == 2)
