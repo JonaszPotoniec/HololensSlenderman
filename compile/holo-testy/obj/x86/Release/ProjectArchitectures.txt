@@ -1,2 +1,0 @@
-C:\Users\praktykant2\Desktop\HololensSlenderman\compile\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86
-C:\Users\praktykant2\Desktop\HololensSlenderman\compile\holo-testy\holo-testy.csproj;x86
